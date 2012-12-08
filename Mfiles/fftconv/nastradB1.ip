@@ -1,0 +1,65 @@
+! 
+! NAST band 1 radiances with and without reflected thermal
+!
+*PARAMS
+! water continum v0
+2  0
+! short headers
+4  -1
+! use fitting profiles
+6  1
+!
+*FRQNCY                                                  
+!
+! NAST band 1
+605 1455
+!
+*MOLGAS              
+! do everything
+-1
+!
+*XSCGAS
+!
+-1
+!
+*PRFILE                                                                       
+! specify fitting profile number (when kprofile = 1)
+1
+!
+*WEIGHT
+2
+!set 1 : all gases have weight of 1.0
+!set 2 : all gases have weight of 1.0
+!
+ 1 -1 1.0 -1
+ 2 -1 1.0 -1
+!
+*RADNCE
+2
+!
+! MPset  PrStart   PrStop  TSpace  TSurface  SatAngle SatHeight
+   1    1013.9476    0     2.6     300.0     0.0      -1.0
+!
+! SolarOnOff SolarAngle SolarRefl  ThermalOnOff ThermalAngle Thermaljacob 
+     -1         0.0       -1.0         -1          -1.0         -1
+!
+0.85
+!
+! MPset  PrStart   PrStop  TSpace  TSurface  SatAngle SatHeight
+   2    1013.9476    0      2.6     300.0     0.0      -1.0
+!
+! SolarOnOff SolarAngle SolarRefl  ThermalOnOff ThermalAngle Thermaljacob 
+     -1         0.0       -1.0         0          -1.0          -1
+!
+0.85
+!
+*OUTPUT                       
+! 
+'comment: reflected thermal radiances'
+!
+! output radiances
+3
+-1 1
+51.5278
+!
+*ENDINP                                                                       
