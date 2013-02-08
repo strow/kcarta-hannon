@@ -26,6 +26,10 @@ function [flist, dout] = modskip(clist, din)
 %    of NaNs are added between module boundaries.  Module boundaries
 %    are read from a matlab file "clist.mat".
 %
+% Copyright 2012, Univ. Of Md, Balt. Co. Atmospheric Spectroscopy Laboratory
+% kcarta is distributed under the terms of the GNU GPL v3
+%
+%
 
 clist = clist(:);
 nchan = length(clist);

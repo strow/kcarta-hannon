@@ -3,6 +3,10 @@ function a = resp(v, L1, atype, aparg);
 % function a = resp(v, L1, atype, aparg);
 %
 % select an apodization function
+%
+% Copyright 2012, Univ. Of Md, Balt. Co. Atmospheric Spectroscopy Laboratory
+% kcarta is distributed under the terms of the GNU GPL v3
+%
 
 if nargin == 2
   fprintf(2, 'resp() warning: using default, kaiser-bessel #6\n');

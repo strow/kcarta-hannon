@@ -4,6 +4,10 @@
 % This demo needs the kcarta parameter file nastradB1.ip
 % and the interferometric parameter file nastB1.m to work
 % correctly.
+%
+% Copyright 2012, Univ. Of Md, Balt. Co. Atmospheric Spectroscopy Laboratory
+% kcarta is distributed under the terms of the GNU GPL v3
+%
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%

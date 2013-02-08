@@ -34,6 +34,10 @@ function [rad2, wnum2] = fconv(rad1, wnum1, ifp, atype, aparg)
 % the apodizations do not need the parameter aparg.
 
 % H. Motteler, 8/24/98
+%
+% Copyright 2012, Univ. Of Md, Balt. Co. Atmospheric Spectroscopy Laboratory
+% kcarta is distributed under the terms of the GNU GPL v3
+%
 
 % warning off by LLS, tired of warnings filling screen
 warning off

@@ -12,6 +12,10 @@
 % See apod.m for the set of valid apodization types.
 
 % H. Motteler, 8/24/98
+%
+% Copyright 2012, Univ. Of Md, Balt. Co. Atmospheric Spectroscopy Laboratory
+% kcarta is distributed under the terms of the GNU GPL v3
+%
 
 
 L1    = input('path length > ');

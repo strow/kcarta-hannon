@@ -1,5 +1,10 @@
 function [iB] = FindDiffusivityBdry(raWaves,plev,nlevs)
 
+%
+% Copyright 2012, Univ. Of Md, Balt. Co. Atmospheric Spectroscopy Laboratory
+% kcarta is distributed under the terms of the GNU GPL v3
+
+
 iB= WhichLevelKcMix(plev,nlevs,940.0);         %AIRS100 ==> level iB=6
 if ((raWaves(1) >= 605.0) & (raWaves(10000) <= 630.0)) 
   iB= WhichLevelKcMix(plev,nlevs,500.0);       %AIRS100 ==> level iB=25 

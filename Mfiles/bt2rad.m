@@ -16,6 +16,10 @@ function rad = bt2rad(fr, bt);
 % Update: 24 Jun 02 Scott Hannon - use milliwatts instead of Watts; adjust
 %    Planck and Boltzmann to use NIST/CODATA98 values
 % Note: constants are NIST/CODATA98 values
+%
+% Copyright 2012, Univ. Of Md, Balt. Co. Atmospheric Spectroscopy Laboratory
+% kcarta is distributed under the terms of the GNU GPL v3
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Constants; values from NIST (CODATA98)

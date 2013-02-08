@@ -32,6 +32,9 @@ function [absc] = contcalc(kcprof, freq, datadir)
 % Update: 12 Jun 2009 Scott Hannon - speed up code ~4x
 % Update: 15 Jun 2009, S.Hannon - allow multiple gases in kcprof
 % Update: 26 Jun 2009, S.Hannon - force tL outside ts range to use min/max 
+%
+% Copyright 2012, Univ. Of Md, Balt. Co. Atmospheric Spectroscopy Laboratory
+% kcarta is distributed under the terms of the GNU GPL v3
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % physcial constants

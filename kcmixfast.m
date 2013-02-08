@@ -56,6 +56,10 @@ function [absc, fr] = kcmixfast(kcprof, vchunk, datadir);
 % Update: 15 Jun 2009, S.Hannon - "fast" variant created
 % Update: 3 Jul 2009, S.Hannon - return fr even if no gases found
 % Update: 6 Jul 2009, L. Strow - repackage, mostly data directories
+%
+% Copyright 2012, Univ. Of Md, Balt. Co. Atmospheric Spectroscopy Laboratory
+% kcarta is distributed under the terms of the GNU GPL v3
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % pre-compression transform aka "k power"

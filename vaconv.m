@@ -15,6 +15,9 @@ function [zang]=vaconv( sva, salt, alt );
 %
 
 % Created by Scott Hannon, 6 June 2002; based on our FORTRAN "vaconv.f"
+% Copyright 2012, Univ. Of Md, Balt. Co. Atmospheric Spectroscopy Laboratory
+% kcarta is distributed under the terms of the GNU GPL v3
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %    The layers of the atmosphere may be considered as concentric

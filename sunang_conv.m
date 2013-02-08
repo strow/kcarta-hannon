@@ -13,6 +13,10 @@ function [zang]=sunang_conv( sza, alt );
 %
 
 % Created by Sergio Machado, July 2003; based on FORTRAN/MATLAB "vaconv.f"
+%
+% Copyright 2012, Univ. Of Md, Balt. Co. Atmospheric Spectroscopy Laboratory
+% kcarta is distributed under the terms of the GNU GPL v3
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %    The layers of the atmosphere may be considered as concentric

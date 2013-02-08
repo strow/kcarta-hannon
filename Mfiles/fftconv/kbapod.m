@@ -11,6 +11,10 @@ function c = kbapod(d, L, k)
 %
 % output
 %   c - apodization of d
+%
+% Copyright 2012, Univ. Of Md, Balt. Co. Atmospheric Spectroscopy Laboratory
+% kcarta is distributed under the terms of the GNU GPL v3
+%
 
 if nargin == 2
   k = 6;

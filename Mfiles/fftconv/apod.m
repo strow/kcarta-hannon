@@ -22,6 +22,10 @@ function a = apod(d, L1, atype, aparg);
 %   norton-beer, nb	Norton-Beer #aparg (aparg = 1 to 8)
 %   cosine, cos		cosine function (0 to pi/L, normalized to [0,1])
 %   beer		Beer (from Wisconsin?)
+%
+% Copyright 2012, Univ. Of Md, Balt. Co. Atmospheric Spectroscopy Laboratory
+% kcarta is distributed under the terms of the GNU GPL v3
+%
 
 
 if nargin == 2

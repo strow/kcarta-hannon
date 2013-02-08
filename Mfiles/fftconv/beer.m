@@ -1,4 +1,8 @@
 function apod=beer(N,MD);
+%
+% Copyright 2012, Univ. Of Md, Balt. Co. Atmospheric Spectroscopy Laboratory
+% kcarta is distributed under the terms of the GNU GPL v3
+%
 
 beer=zeros(N,1);
 beer(1)=1;

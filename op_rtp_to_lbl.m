@@ -25,6 +25,10 @@ function [kcprof] = op_rtp_to_lbl(profnum, gasid, head, prof);
 % Update: 06 Dec 2005, Sergio Machado - created non-txt version
 % Update: 12 Jun 2009, S.Hannon - minor update and cleanup for rtpV201
 % Update: 15 Jun 2009, S.Hannon - allow multiple gases in glist
+%
+% Copyright 2012, Univ. Of Md, Balt. Co. Atmospheric Spectroscopy Laboratory
+% kcarta is distributed under the terms of the GNU GPL v3
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Check ptype

@@ -46,6 +46,10 @@ function mksconv(sfile, mfile, dv);
 %
 % H. Motteler, 15 Jan 02
 %
+% Copyright 2012, Univ. Of Md, Balt. Co. Atmospheric Spectroscopy Laboratory
+% kcarta is distributed under the terms of the GNU GPL v3
+%
+%
 
 
 % default SRF source file

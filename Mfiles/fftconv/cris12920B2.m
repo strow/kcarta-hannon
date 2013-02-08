@@ -1,6 +1,10 @@
 
 % CrIS specs for band 2
 % 1210:0.1.250:1750 cm^-1 (433 channels)
+%
+% Copyright 2012, Univ. Of Md, Balt. Co. Atmospheric Spectroscopy Laboratory
+% kcarta is distributed under the terms of the GNU GPL v3
+%
 
 band = 2;
 

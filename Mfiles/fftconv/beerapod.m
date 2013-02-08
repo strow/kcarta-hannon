@@ -12,6 +12,10 @@ function b = beerapod(d, L)
 %   b - apodization of d
 % 
 % NOTE: from the Wisconson group, via Larrabee
+%
+% Copyright 2012, Univ. Of Md, Balt. Co. Atmospheric Spectroscopy Laboratory
+% kcarta is distributed under the terms of the GNU GPL v3
+%
 
 b = (abs(d) <= L) .* (1 - (d/L).^2).^2;
 

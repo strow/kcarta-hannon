@@ -11,6 +11,10 @@ function r = cosresp(v, L)
 %
 % output
 %   r - selected response function of v
+%
+% Copyright 2012, Univ. Of Md, Balt. Co. Atmospheric Spectroscopy Laboratory
+% kcarta is distributed under the terms of the GNU GPL v3
+%
 
 if nargin == 1
   L = 1;

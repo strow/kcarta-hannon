@@ -36,4 +36,8 @@
 % Data files for example programs:
 %      Data/desert_0725_2004.op.rtp
 %
+%
+% Copyright 2012, Univ. Of Md, Balt. Co. Atmospheric Spectroscopy Laboratory
+% kcarta is distributed under the terms of the GNU GPL v3
+
 %%% end of file %%%

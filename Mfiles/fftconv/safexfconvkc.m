@@ -30,6 +30,10 @@ function [rch, wch] = xfconvkc(rkc, ifp, atype, aparg)
 %
 % This version does a linear interpolation from kcarta to vlaser 
 % point spacings.
+%
+% Copyright 2012, Univ. Of Md, Balt. Co. Atmospheric Spectroscopy Laboratory
+% kcarta is distributed under the terms of the GNU GPL v3
+%
 
 % set input defaults
 %

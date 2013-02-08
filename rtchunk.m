@@ -16,6 +16,9 @@ function [rad] = rtchunk(ip, prof, absc, freq, datadir);
 
 % Created: 14 Jun 2002, Howard Motteler
 % Update: 16 Jun 2009, Scott Hannon -  rewrite for speed up
+
+% Copyright 2012, Univ. Of Md, Balt. Co. Atmospheric Spectroscopy Laboratory
+% kcarta is distributed under the terms of the GNU GPL v3
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Edit this section as needed
 

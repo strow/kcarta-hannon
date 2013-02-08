@@ -24,6 +24,10 @@ function [rad] = rtchunkfast(lbot,stemp,secang,secsun,xsun,ermono,...
 % 
 
 % Created: 17 Jun 2009, Scott Hannon
+%
+% Copyright 2012, Univ. Of Md, Balt. Co. Atmospheric Spectroscopy Laboratory
+% kcarta is distributed under the terms of the GNU GPL v3
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Prepare nadir optical depths

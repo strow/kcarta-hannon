@@ -28,6 +28,9 @@ function [rout, fout] = sconv1(rin, fin, clist, mfile);
 %
 % H. Motteler, 15 Jan 02
 %
+% Copyright 2012, Univ. Of Md, Balt. Co. Atmospheric Spectroscopy Laboratory
+% kcarta is distributed under the terms of the GNU GPL v3
+%
 
 % guarantee input vectors are columns
 fin = fin(:);

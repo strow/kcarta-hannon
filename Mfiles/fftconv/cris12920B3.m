@@ -1,6 +1,10 @@
 
 % CrIS specs for band 3
 % 2155:2.500:2550 cm^-1 (159 channels)
+%
+% Copyright 2012, Univ. Of Md, Balt. Co. Atmospheric Spectroscopy Laboratory
+% kcarta is distributed under the terms of the GNU GPL v3
+%
 
 band = 3;
 

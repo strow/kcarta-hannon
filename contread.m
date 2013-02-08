@@ -18,6 +18,10 @@ function [kx, freq, temp] = contread(fname);
 % Created: 28 May 2003 Howard Motteler
 % Update: 12 Jun 2009, Scott Hannon - replace "mdeal" function with
 %    reads of individual varibles
+%
+% Copyright 2012, Univ. Of Md, Balt. Co. Atmospheric Spectroscopy Laboratory
+% kcarta is distributed under the terms of the GNU GPL v3
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 fid = fopen(fname, 'r');

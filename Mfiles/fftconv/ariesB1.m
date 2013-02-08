@@ -1,3 +1,7 @@
+%
+% Copyright 2012, Univ. Of Md, Balt. Co. Atmospheric Spectroscopy Laboratory
+% kcarta is distributed under the terms of the GNU GPL v3
+%
 
 v1 = 630;         % band low end
 v2 = 1804.9975;   % band high end

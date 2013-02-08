@@ -35,6 +35,10 @@ function [data, wnums] = readkc(kfile, dfile)
 % such cases an output file should always be specified.
 
 % H. Motteler, 8/24/98
+%
+% Copyright 2012, Univ. Of Md, Balt. Co. Atmospheric Spectroscopy Laboratory
+% kcarta is distributed under the terms of the GNU GPL v3
+%
 
 
 [fin,msg] = fopen(kfile, 'r');

@@ -1,6 +1,10 @@
 
 % IASI specs for 1-band spanning interferograms
 %
+%
+% Copyright 2012, Univ. Of Md, Balt. Co. Atmospheric Spectroscopy Laboratory
+% kcarta is distributed under the terms of the GNU GPL v3
+%
 
 band = 1;
 

@@ -27,6 +27,10 @@ function cfreq = cnum2cfreq(clist, sfile);
 % H. Motteler, 15 Jan 02
 % L. Strow, 30 Jan 04, updated srf table name
 %
+% Copyright 2012, Univ. Of Md, Balt. Co. Atmospheric Spectroscopy Laboratory
+% kcarta is distributed under the terms of the GNU GPL v3
+%
+%
 
 % the default channel list all 2378 AIRS channels
 if nargin < 1

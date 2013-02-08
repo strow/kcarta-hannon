@@ -24,6 +24,10 @@ function [f, fstep, toff, K, U, gid, ktype] = rdgaschunk_le(fname);
 %
 
 % Created: 27 May 2009, Scott Hannon
+%
+% Copyright 2012, Univ. Of Md, Balt. Co. Atmospheric Spectroscopy Laboratory
+% kcarta is distributed under the terms of the GNU GPL v3
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Open file

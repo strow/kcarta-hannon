@@ -1,3 +1,6 @@
+% Copyright 2012, Univ. Of Md, Balt. Co. Atmospheric Spectroscopy Laboratory
+% kcarta is distributed under the terms of the GNU GPL v3
+
 % this is the same as /home/sergio/KCMIX2/KCMIXCODE/vary_rtherm.m
 % except we use TOA = layer 1, GND = layer 100
 

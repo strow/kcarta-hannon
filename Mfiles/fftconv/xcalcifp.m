@@ -69,6 +69,10 @@ function xcalcifp(idef)
 %   kcpts    v2kind-v1kind+1 (number of kcarta pts)
 
 % H. Motteler, 8/24/98
+%
+% Copyright 2012, Univ. Of Md, Balt. Co. Atmospheric Spectroscopy Laboratory
+% kcarta is distributed under the terms of the GNU GPL v3
+%
 
 
 global v1 v2 vmax rolloff

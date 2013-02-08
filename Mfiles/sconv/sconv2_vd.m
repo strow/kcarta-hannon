@@ -20,6 +20,10 @@ function [rout, fout] = sconv2_vd(rin, fin, clist, vdsfile, coff);
 
 % Created (sconv2.m) : 15 Jan 2002, H.Motteler
 % Created (sconv2_vd.m): 04 Jan 2005, S.Hannon
+%
+% Copyright 2012, Univ. Of Md, Balt. Co. Atmospheric Spectroscopy Laboratory
+% kcarta is distributed under the terms of the GNU GPL v3
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 addpath ../h4toolsV201

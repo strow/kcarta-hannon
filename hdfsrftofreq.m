@@ -18,6 +18,10 @@ function [fchan, srf, inds, inde] = hdfsrftofreq(fmono, clist, sfile);
 %
 
 % Created: 16 Jun 2009, Scott Hannon - from Howard Mottelers "sconv2.m"
+%
+% Copyright 2012, Univ. Of Md, Balt. Co. Atmospheric Spectroscopy Laboratory
+% kcarta is distributed under the terms of the GNU GPL v3
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 addpath h4toolsV201

@@ -17,5 +17,9 @@
 %
 %   readclist.m   - read an AIRS channel properties file
 %   modskip.m     - add NaNs between modules for "pen lift"
+%
+% Copyright 2012, Univ. Of Md, Balt. Co. Atmospheric Spectroscopy Laboratory
+% kcarta is distributed under the terms of the GNU GPL v3
+%
 %   
 

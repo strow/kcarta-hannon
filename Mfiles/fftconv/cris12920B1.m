@@ -1,6 +1,10 @@
 
 % CrIS specs for band 1
 % 650:0.625:1095 cm^-1 (713 channels)
+%
+% Copyright 2012, Univ. Of Md, Balt. Co. Atmospheric Spectroscopy Laboratory
+% kcarta is distributed under the terms of the GNU GPL v3
+%
 
 band = 1;
 

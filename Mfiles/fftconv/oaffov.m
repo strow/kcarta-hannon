@@ -58,6 +58,10 @@ function [oafreq,oasrf] = oaffov(fchan,fmin,fmax,df,opd,thetac,hfov,nslice);
 %    phi_i = pi if abs( B_i ) > 1, otherwise phi_i =acos( B_i )
 %    B_i = cos(phi_i) = (theta_i^2 - hfov^2 + thetac^2)/(2*theta_i*thetac)
 %
+%
+% Copyright 2012, Univ. Of Md, Balt. Co. Atmospheric Spectroscopy Laboratory
+% kcarta is distributed under the terms of the GNU GPL v3
+%
 
 
 % Assign freq points

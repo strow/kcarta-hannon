@@ -26,6 +26,10 @@ function fgrid = cnum2fgrid(clist, sfile);
 %
 % H. Motteler, 15 Jan 02
 %
+% Copyright 2012, Univ. Of Md, Balt. Co. Atmospheric Spectroscopy Laboratory
+% kcarta is distributed under the terms of the GNU GPL v3
+%
+%
 
 % the default channel list is all 2378 AIRS channels
 if nargin < 1

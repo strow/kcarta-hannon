@@ -27,6 +27,10 @@ function [lbot,blmult,secang,secsun,xsun,ermono,rplanck] = ...
 % Created: 17 Jun 2009, Scott Hannon -  based on rtchunk
 % Update: 23 Jun 2009, S.Hannon - fix secang bug (was solzen not satzen)
 % Update: 29 Jun 2009, S.Hannon - error traps for nemis=1 and no rho
+%
+% Copyright 2012, Univ. Of Md, Balt. Co. Atmospheric Spectroscopy Laboratory
+% kcarta is distributed under the terms of the GNU GPL v3
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Edit this section as needed
 

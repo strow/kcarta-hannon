@@ -10,6 +10,10 @@ function b = triapod(a, L)
 %
 % output
 %   b - apodization of a
+%
+% Copyright 2012, Univ. Of Md, Balt. Co. Atmospheric Spectroscopy Laboratory
+% kcarta is distributed under the terms of the GNU GPL v3
+%
 
 
 if nargin == 1

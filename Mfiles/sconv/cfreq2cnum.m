@@ -28,6 +28,10 @@ function clist = cfreq2cnum(cfreq, sfile);
 % H. Motteler, 15 Jan 02
 % L. Strow, 30 Jan 04, updated srf table name
 %
+% Copyright 2012, Univ. Of Md, Balt. Co. Atmospheric Spectroscopy Laboratory
+% kcarta is distributed under the terms of the GNU GPL v3
+%
+%
 
 
 % guarantee column vectors

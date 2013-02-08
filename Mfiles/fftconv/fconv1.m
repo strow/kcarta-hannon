@@ -26,6 +26,10 @@
 %
 % AUTHOR
 %   H. Motteler, 22 June 08
+%
+% Copyright 2012, Univ. Of Md, Balt. Co. Atmospheric Spectroscopy Laboratory
+% kcarta is distributed under the terms of the GNU GPL v3
+%
 
 function [rad2, frq2] = fconv1(rad1, frq1, atype, opts)
 
