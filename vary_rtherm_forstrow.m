@@ -8,14 +8,20 @@
 %%    acos(3/5) everywhere in the upper layers
 %%    more selective at lower layers
 
+% L. Strow, June 23, 2014; absc --> xabsc
+
 % radiance calc along reflected thermal path
 tspace = 2.7;
-rthm = ttorad(freq, tspace);
+rthm = bt2rad(freq, tspace);
 
 %%%% big assumption ... these are 100 AIRS layers
-preslevels = load('~/Matlab/Kcarta/Data/airslevels.dat');
+preslevels = load('../Data/airslevels.dat');
 %%%% this was done for kCARTA, so 1 = GND, 100 = TOA
 
+%nlevs = nlay + 1;
+% LLS
+[x1,x2]=size(xabsc);
+nlay = x2;
 nlevs = nlay + 1;
 
 rCos = 3/5;
@@ -27,8 +33,8 @@ iLL = nlay;
 
 iN = length(freq);
 
-sumk   = sum(absc(:,1:iLL)')';
-sumkm1 = sum(absc(:,2:iLL)')';
+sumk   = sum(xabsc(:,1:iLL)')';
+sumkm1 = sum(xabsc(:,2:iLL)')';
 
 % Declare planck array
 rplanck = zeros(npts,lbot);
@@ -50,7 +56,7 @@ for ii = 1:iThermalLayer
   raEmission = (raTm1 - raT).*raPlanck;
   rthm       = raEmission + rthm;
   sumk   = sumkm1;
-  sumkm1 = sumkm1 - absc(:,iiM1);
+  sumkm1 = sumkm1 - xabsc(:,iiM1);
   end
 
 for ii=iThermalLayer+1:iLL-1
@@ -65,7 +71,7 @@ for ii=iThermalLayer+1:iLL-1
   raEmission = (raTm1 - raT).*raPlanck;
   rthm       = raEmission + rthm;
   sumk   = sumkm1;
-  sumkm1 = sumkm1 - absc(:,iiM1);
+  sumkm1 = sumkm1 - xabsc(:,iiM1);
   end
 
 for ii=iLL:iLL

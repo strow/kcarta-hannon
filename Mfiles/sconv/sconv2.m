@@ -1,4 +1,3 @@
-
 function [rout, fout] = sconv2(rin, fin, clist, sfile, coff);
 
 % NAME
@@ -50,7 +49,7 @@ end
 if nargin < 4
     %  sfile = '/asl/data/airs/srf/srftablesV10.hdf';
 
-    sfile = '/asl/matlab/srftest/srftables_m140f_symmetric_mar08.hdf';
+    sfile = '/asl/matlab2012/srftest/srftables_m140f_symmetric_mar08.hdf';
 % $$$   c = pwd;cd ~;homeroot = pwd;cd(c);
 % $$$   sfile = fullfile(homeroot,'Data/Kcarta/Data/Srftables/srftablesV10.hdf');
 end
