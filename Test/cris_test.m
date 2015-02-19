@@ -10,9 +10,10 @@
 % $$$ start doing smaller regions, the convolution code will break.
 
 % Sample input file
-hfile = '../Data/desert_0725_2004.op.rtp';
+% hfile = '../Data/desert_0725_2004.op.rtp';
 
-hfile = '/Users/strow/Desktop/test.rtp';
+%hfile = '/Users/strow/Desktop/test.rtp';
+hfile = '/asl/s1/strow/rtprod_cris/2013/08/28/test.rtp';
 % Profile index in hfile
 ip = 60;
 
@@ -35,7 +36,8 @@ i = find(prof.plat > -30 & abs(bias(406,:)) < 1);
 %gid = [1,2,3,4,5,6,7,8,9,10,11,12,18,22,23,26,27,51,52,53,54,56,57,60,61,62,63]; % nearly constant gases
 gid = [1,2,3,4,5,6,9];
 
-for k=i(13:end)
+%for k=i
+for k=i(1)
    ip = k
 % Variables added for each chunk
 allfreq        = [];
